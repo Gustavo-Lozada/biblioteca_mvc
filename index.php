@@ -21,4 +21,10 @@ if (isset($arrUrl[2])) {
 }
 require_once("Libraries/Core/Autoload.php");
 require_once("Libraries/Core/Load.php");
+
+$bdd = new PDO(
+    	"mysql:host=" . getenv("bpcek3ew2gqv7rdmv8nj-mysql.services.clever-cloud.com") . ";dbname=" . getenv("bpcek3ew2gqv7rdmv8nj"),
+    	getenv("useylzzrcbw6nak3"),
+    	getenv("6VILXUa95VDiqCGWTpom")
+  );
 ?>
