@@ -1,11 +1,12 @@
 <?php
 class DatabaseConnection {
-    private $servername = "ejemplo.mysql.clever-cloud.com";
-    private $username = "usuario_bd";
-    private $password = "contraseña_bd";
-    private $dbname = "nombre_bd";
+    private $servername = "bpcek3ew2gqv7rdmv8nj-mysql.services.clever-cloud.com";
+    private $username = "useylzzrcbw6nak3";
+    private $password = "6VILXUa95VDiqCGWTpom";
+    private $dbname = "bpcek3ew2gqv7rdmv8nj";
+    private $charset = "utf8";
     private $conn;
-
+    
     public function __construct() {
         try {
             // Establecer la conexión con la base de datos utilizando PDO
