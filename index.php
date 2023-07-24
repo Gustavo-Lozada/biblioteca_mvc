@@ -24,7 +24,7 @@ require_once("Libraries/Core/Load.php");
 
 
 // Incluir la clase de conexión a la base de datos
-require_once 'DatabaseConnection.php';
+require_once ("Config/DatabaseConnection.php");
 
 // Crear una instancia de la conexión a la base de datos
 $databaseConnection = new DatabaseConnection();
