@@ -1,10 +1,5 @@
 <?php
 
-$bdd = new PDO(
-    	"mysql:host=" . getenv("bpcek3ew2gqv7rdmv8nj-mysql.services.clever-cloud.com") . ";dbname=" . getenv("bpcek3ew2gqv7rdmv8nj"),
-    	getenv("useylzzrcbw6nak3"),
-    	getenv("6VILXUa95VDiqCGWTpom")
-  );
 
 class DatabaseConnection {
     private $servername = "bpcek3ew2gqv7rdmv8nj-mysql.services.clever-cloud.com";
